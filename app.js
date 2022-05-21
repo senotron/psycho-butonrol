@@ -4,8 +4,8 @@ const fs = require('fs');
 const db = require('mongoose');
 const {REST} = require('@discordjs/rest');
 const { Routes } = require("discord-api-types/v10");
-const token = "TOKENİNİZ";
-const mongoDB = "MONGO_DB_URL";
+const token = "OTc2MjM4MTA4NDM1Njc3MjQ0.Gx5K26.B6jb3pDacCrlVux2SUcDnjQI--Q4hqsfgSvtuo";
+const mongoDB = "mongodb+srv://depperitor:19822891aA.@cluster0.4xqxq.mongodb.net/depperitor?retryWrites=true&w=majority";
 db.connect(mongoDB)
 .then(() => console.log("MongoDB bağlantısı başarılı"))
 .catch(err => console.log("Mongo bağlantısı başarısız oldu: "+err));
