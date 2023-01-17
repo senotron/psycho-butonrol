@@ -33,12 +33,12 @@ module.exports = {
                     name:`${guild.name} | Butonlu Rol Alma`,
                     iconURL:guild.iconURL({dynamic:true})
                 })
-                .setDescription(`${emoji}-<@${butonrol1}> ${embedaçıklama} \r\n ${emoji1}-${buton1isim} ${embedaçıklama1}`)
+                .setDescription(`${emoji}-<@&${butonrol1}> ${embedaçıklama} \r\n ${emoji1}-<@&${butonrol2}> ${embedaçıklama1}`)
                 .setColor("GREEN");
       
    const buton = new MessageActionRow().addComponents(
             new MessageButton().setCustomId("1buton").setLabel(`${buton1isim}`).setStyle("PRIMARY").setEmoji(`${emoji}`),
-            new MessageButton().setCustomId("2buton").setLabel(`${buton2isim}`).setStyle("PRIMARY").setEmoji(`${emoji}`),)
+            new MessageButton().setCustomId("2buton").setLabel(`${buton2isim}`).setStyle("PRIMARY").setEmoji(`${emoji1}`),)
    
    
    
