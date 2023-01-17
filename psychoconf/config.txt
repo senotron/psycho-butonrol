@@ -1,4 +1,4 @@
-//Burası sadece bilgi 
+//Burası sadece bilgi kanalıdır
 
 {
     "butonrol1":"", // 1 ci Butona basınca alınacak rolün id'si PsychoPath#7992
