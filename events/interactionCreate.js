@@ -56,7 +56,7 @@ module.exports = async (client, interaction) => {
         if (interaction.isButton()){
 
       const {guild, member, customId, channel} = interaction;
-      const {butonrol1,buton1isim,butonrol2,buton2isim} = require("./psychoconf/config.json");
+      const {butonrol1,buton1isim,butonrol2,buton2isim} = require("../psychoconf/config.json");
 
 
       if(customId == "1buton"){
@@ -68,10 +68,10 @@ module.exports = async (client, interaction) => {
 
        if(hasRole){
          memberRole.remove(butonrol1);
-         interaction.followUp({content:`**<@${role.name}>** rolü senden alındı`, ephemeral:true})
+         interaction.reply({content:`**${role}** rolü senden alındı`, ephemeral:true})
        }else {
         memberRole.add(butonrol1);
-        interaction.followUp({content:`**${role.name}** rolü verildi`, ephemeral:true})
+        interaction.reply({content:`**${role}** rolü verildi`, ephemeral:true})
        }
      }
           
@@ -84,10 +84,10 @@ module.exports = async (client, interaction) => {
 
        if(hasRole){
          memberRole.remove(butonrol2);
-         interaction.followUp({content:`**<@${role.name}>** rolü senden alındı`, ephemeral:true})
+         interaction.reply({content:`<${role}** rolü senden alındı`, ephemeral:true})
        }else {
         memberRole.add(butonrol2);
-        interaction.followUp({content:`**${role.name}** rolü verildi`, ephemeral:true})
+        interaction.reply({content:`**${role}** rolü verildi`, ephemeral:true})
        }
      }
           

@@ -1,5 +1,5 @@
 const { MessageEmbed,Client,CommandInteraction,MessageActionRow,MessageButton,Permissions } = require("discord.js");
-const {butonrol1,buton1isim,butonrol2,buton2isim} = require("./psychoconf/config.json");
+const {butonrol1,buton1isim,butonrol2,buton2isim} = require("../psychoconf/config.json");
 
 module.exports = {
     name:"gönder",
@@ -44,12 +44,12 @@ module.exports = {
       
    const buton = new MessageActionRow().addComponents(
             new MessageButton().setCustomId("1buton").setLabel(`${buton1isim}`).setStyle("PRIMARY").setEmoji("1️⃣"),
-            new MessageButton().setCustomId("2buton").setLabel(`${buton1isim}`).setStyle("PRIMARY").setEmoji("2️⃣"),)
+            new MessageButton().setCustomId("2buton").setLabel(`${buton2isim}`).setStyle("PRIMARY").setEmoji("2️⃣"),)
    
    
    
    interaction.reply({content:"Gönderildi!<:true:1025875522393211010>",ephemeral:true});
                 guild.channels.cache.get(channel.id)
-                .send({embeds:[embed], components:[Buton]});
+                .send({embeds:[embed], components:[buton]});
 }
 };
