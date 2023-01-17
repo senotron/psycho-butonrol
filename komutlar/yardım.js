@@ -31,19 +31,9 @@ module.exports = {
                 .setDescription(description)
                 .setColor("GREEN");
       
-const Buton = new MessageActionRow().addComponents(
-                    new MessageButton()
-                    .setCustomId("destek")
-                    .setLabel(`${buton1isim}`)
-                    .setStyle("PRIMARY")
-                    .setEmoji("")// İstediğin Emojiyi koy
-                )
-const Buton1 = new MessageActionRow().addComponents(
-                    new MessageButton()
-                    .setCustomId("destek")
-                    .setLabel(`${buton2isim}`)
-                    .setStyle("PRIMARY")
-                    .setEmoji("")// İstediğin Emojiyi koy
-                )
+   const buton = new MessageActionRow().addComponents(
+            new MessageButton().setCustomId("1buton").setLabel(`${buton1isim}`).setStyle("PRIMARY").setEmoji("1️⃣"),
+            new MessageButton().setCustomId("2buton").setLabel(`${buton1isim}`).setStyle("PRIMARY").setEmoji("2️⃣"),
+     )
 }
 };
