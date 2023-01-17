@@ -4,11 +4,8 @@ const fs = require('fs');
 const db = require('mongoose');
 const {REST} = require('@discordjs/rest');
 const { Routes } = require("discord-api-types/v10");
-const token = "OTc2MjM4MTA4NDM1Njc3MjQ0.Gx5K26.B6jb3pDacCrlVux2SUcDnjQI--Q4hqsfgSvtuo";
-const mongoDB = "mongodb+srv://depperitor:19822891aA.@cluster0.4xqxq.mongodb.net/depperitor?retryWrites=true&w=majority";
-db.connect(mongoDB)
-.then(() => console.log("MongoDB bağlantısı başarılı"))
-.catch(err => console.log("Mongo bağlantısı başarısız oldu: "+err));
+const token = "MTA1NTEwNTU1ODkxMjQ1MDY2Mw.GrbDGp.zMBtDt-_P42frvNCFRLH6LKlFbUU9M0lIILBIs";
+
 
 global.client = client;
 client.commands = (global.commands = []);
@@ -48,11 +45,11 @@ fs.readdir("./events/", (_err, files) => {
 client.on("ready",async () => {
 
     console.log("Bot Hizmete Hazır!");
-    client.user.setActivity("RabeL 💖 Gweep Creative", {type:"WATCHING"});
+    client.user.setActivity("PsychoPath#7992", {type:"WATCHING"});
     const rest = new REST({ version: "10" }).setToken(token);
     try {
       await rest.put(Routes.applicationCommands(client.user.id), {
-        body: commands,
+        body: client.commands,
       });
     
     } catch (error) {
