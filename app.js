@@ -1,7 +1,6 @@
 const {Client} = require('discord.js');
 const client = new Client({intents:519});
 const fs = require('fs');
-const db = require('mongoose');
 const {REST} = require('@discordjs/rest');
 const { Routes } = require("discord-api-types/v9");
 const token = "MTA1NTEwNTU1ODkxMjQ1MDY2Mw.GrbDGp.zMBtDt-_P42frvNCFRLH6LKlFbUU9M0lIILBIs";
@@ -23,7 +22,7 @@ fs.readdir("./komutlar/", (err, files) => {
              options: props.options,
              type: props.type,
         })
-        console.log(`👌 Slash Komut Yüklendi: ${props.name}`);
+        console.log(`👌 Slash Komut Yüklendi: ${props.name} By PsychoPath#7992`);
     });
 });
 //#endregion
@@ -44,7 +43,7 @@ fs.readdir("./events/", (_err, files) => {
 //#region KOMUTLAR SET
 client.on("ready",async () => {
 
-    console.log("Bot Hizmete Hazır!");
+    console.log("Bot Hizmete Hazır! By PsychoPath#7992");
     client.user.setActivity("PsychoPath#7992", {type:"WATCHING"});
     const rest = new REST({ version: "9" }).setToken(token);
     try {

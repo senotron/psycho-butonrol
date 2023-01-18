@@ -3,7 +3,10 @@
 {
     "butonrol1":"", // 1 ci Butona basınca alınacak rolün id'si PsychoPath#7992
     "buton1-isim": "",// 1 ci Butona basınca alınacak rolün ismi PsychoPath#7992
-  
+    "emoji": "", // 1 ci butonun emojisi
+
     "butonrol2":"", // 2 ci Butona basınca alınacak rolün id'si PsychoPath#7992
     "buton2-isim": "",// 2 ci Butona basınca alınacak rolün ismi PsychoPath#7992
+    "emoji": "" // 2 ci butonun emojisi
+
 }
