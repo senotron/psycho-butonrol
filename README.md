@@ -18,7 +18,6 @@
 * [Discord Profilim](https://discord.com/users/840158550495723530)
 * [Discord Sunucum](https://discord.gg/NQED7xCbcT)
 
-<h4> DPT</h4>
-<h6>PsychoPath Technology</h6>
+<h4>DPT</h4><h6>PsychoPath Technology</h6>
 
 
