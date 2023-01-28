@@ -60,7 +60,7 @@ module.exports = async (client, interaction) => {
 
        if(hasRole){
          memberRole.remove(butonrol2);
-         interaction.reply({content:`<${role}** rolü senden alındı`, ephemeral:true})
+         interaction.reply({content:`**${role}** rolü senden alındı`, ephemeral:true})
        }else {
         memberRole.add(butonrol2);
         interaction.reply({content:`**${role}** rolü verildi`, ephemeral:true})
