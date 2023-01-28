@@ -6,7 +6,11 @@
       - Altyapı tamamen MrSn#7992 kullanıcısına,yani bana mahsustur.(Yalnız ana dosya Gweep Creative#0001 aittir)
       - [İletişim](#İletişim)
 
-
+<div align="center">
+   <a href="https://github.com">
+      <img src="https://cdn.discordapp.com/attachments/850175806629347348/880100766562517042/68747470733a2f2f6265746161612e6861732d612d686f742e6d6f6d2f35356f7252486b384a2e676966.gif">
+   </a>
+</div>
 
 
 ## Botun İntentlerini Açmayı Unutma!
