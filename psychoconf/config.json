@@ -1,12 +1,10 @@
-
 {
-    "butonrol1":"ROL 1", 
-    "buton1isim": "Rol 1",
-    "embedaçıklama": "・Rolünü almak için tıkla",
-     "emoji": "❤",
-  
-    "butonrol2":"ROL2 İD", 
-   "buton2isim": "Rol 2",
-    "embedaçıklama1": "・Rolünü almak için tıkla",
-    "emoji1": "💙"
+  "butonrol1": "ROL 1",
+  "buton1isim": "Rol 1",
+  "embedaçıklama": "・Rolünü almak için tıkla",
+  "emoji": "❤",
+  "butonrol2": "ROL2 İD",
+  "buton2isim": "Rol 2",
+  "embedaçıklama1": "・Rolünü almak için tıkla",
+  "emoji1": "💙"
 }
