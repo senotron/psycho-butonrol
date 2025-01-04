@@ -8,7 +8,7 @@ const {
   Collection 
 } = require("discord.js");
 const fs = require("fs");
-const config = require("../psychoconf/config.json");
+const config = require("../settings/config.json");
 
 /**
  * 
