@@ -1,9 +1,9 @@
-# psycho-butonrol
-#Discord Butonlu Rol Alma
+# butonlu-rol-alma
+# Discord Butonlu Rol Alma
 
 
- - [Discord Butonlu Rol Alma](https://github.com/MonsterBotTechonolgy/psycho-butonrol)
-      - Altyapı  mrsn.dev kullanıcısına,yani bana mahsustur.
+ - [Discord Butonlu Rol Alma](https://github.com/senotron/butonlu-rol-alma)
+      - Altyapı  senotron kullanıcısına,yani bana mahsustur.
       - [İletişim](#İletişim)
 
 
@@ -18,6 +18,4 @@
 * [Discord Profilim](https://discord.com/users/840158550495723530)
 * [Discord Sunucum](https://discord.gg/NQED7xCbcT)
 
-<h4>DPT</h4><h6>PsychoPath Technology</h6>
-
-
+<h4>SenanShukurzade</h4>
