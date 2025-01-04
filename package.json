@@ -1,14 +1,14 @@
 
 {
-	"name": "gweepcreative",
+	"name": "senotron",
 	"version": "1.0.0",
-	"description": "PsychoPath#7992 Botu",
+	"description": "senotron Botu",
 	"main": "app.js",
 	"scripts": {
 		"start": "node app.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Senan Shukurzade",
 	"license": "ISC",
 	"dependencies": {
 		"@discordjs/builders": "^1.2.0",
